@@ -13,8 +13,8 @@ type Board = {
 }
 export const boards = {
   avr4809: {
-    signature: Buffer.from([0x1e, 0x96, 0x51]),
-    pageSize: 128,
+    signature: Buffer.from([0x1e, 0x94, 0x21]),
+    pageSize: 64,
     timeout: 400,
     baudRate: 115200,
     use_8_bit_addresseses: true,
