@@ -9,7 +9,7 @@ type Board = {
   pageSize: number
   timeout: number
   baudRate: number
-  //use_8_bit_addresseses?: boolean
+  use_8_bit_addresseses?: boolean
 }
 export const boards = {
   avr4809: {
@@ -17,7 +17,7 @@ export const boards = {
     pageSize: 64,
     timeout: 400,
     baudRate: 115200,
-    use_8_bit_addresseses: true,
+    //use_8_bit_addresseses: true,
   } as Board,
   lgt8f328p: {
     signature: Buffer.from([0x1e, 0x95, 0x0f]),
