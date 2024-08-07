@@ -9,7 +9,7 @@ type Board = {
   pageSize: number
   timeout: number
   baudRate: number
-  use_8_bit_addresseses?: boolean
+  //use_8_bit_addresseses?: boolean
 }
 export const boards = {
   avr4809: {
