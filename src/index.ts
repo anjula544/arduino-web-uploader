@@ -16,7 +16,7 @@ export const boards = {
     signature: Buffer.from([0x1e, 0x94, 0x21]),
     pageSize: 64,
     timeout: 400,
-    baudRate: 115200,
+    baudRate: 9600,
     //use_8_bit_addresseses: true,
   } as Board,
   lgt8f328p: {
